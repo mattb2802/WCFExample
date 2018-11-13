@@ -3,3 +3,6 @@
 ################################################################################
 
 /bin/Debug
+/obj/Debug
+/Tests/Unit Tests/bin/Debug
+/Tests/Unit Tests/obj/Debug
