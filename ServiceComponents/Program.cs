@@ -1,4 +1,5 @@
-﻿using System.Threading;
+﻿using System.ServiceProcess;
+using System.Threading;
 
 namespace WCFExample.ServiceComponents
 {
@@ -12,7 +13,7 @@ namespace WCFExample.ServiceComponents
             hostService.Init();
             Thread.Sleep(Timeout.Infinite);
 #else
-			ServiceBase.Run(new StudioDataManagerHostService());
+			ServiceBase.Run(new WcfExampleHostService());
 #endif
 
         }

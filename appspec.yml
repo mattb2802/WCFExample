@@ -1,0 +1,16 @@
+version: 0.0
+os: windows
+files:
+  - source: \
+    destination: c:\services\WcfExampleSvc\
+  - source: \Scripts\stopwcfExampleService.ps1
+    destination: c:\temp\services
+  - source: \Scripts\installwcfExampleService.ps1
+    destination: c:\temp\services
+hooks:
+  BeforeInstall:
+    - location: \Scripts\stopwcfExampleService.bat
+      timeout: 180
+  AfterInstall:
+    - location: \Scripts\installwcfExampleService.bat
+      timeout: 180

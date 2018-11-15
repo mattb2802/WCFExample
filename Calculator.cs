@@ -14,7 +14,7 @@ namespace WCFExample
     public class CalculatorService : ICalculator
     {
         [WebInvoke(Method = "POST",
-            ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedResponse,
+            ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped,
             UriTemplate = "Add?n1={n1}&n2={n2}")]
         public CalculatorResponse Add(double n1, double n2)
         {
@@ -33,7 +33,7 @@ namespace WCFExample
         }
 
         [WebInvoke(Method = "POST",
-            ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedResponse,
+            ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped,
             UriTemplate = "Divide?n1={n1}&n2={n2}")]
         public CalculatorResponse Divide(double n1, double n2)
         {
@@ -57,7 +57,7 @@ namespace WCFExample
         }
 
         [WebInvoke(Method = "POST",
-            ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedResponse,
+            ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped,
             UriTemplate = "Multiply?n1={n1}&n2={n2}")]
         public CalculatorResponse Multiply(double n1, double n2)
         {
@@ -75,7 +75,7 @@ namespace WCFExample
         }
 
         [WebInvoke(Method = "POST",
-            ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedResponse,
+            ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped,
             UriTemplate = "Subtract?n1={n1}&n2={n2}")]
         public CalculatorResponse Subtract(double n1, double n2)
         {

@@ -6,3 +6,7 @@
 /obj/Debug
 /Tests/Unit Tests/bin/Debug
 /Tests/Unit Tests/obj/Debug
+/.vs/WCFExample/v15
+/bin/Release
+/obj/Release
+*.user
