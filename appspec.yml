@@ -4,9 +4,9 @@ files:
   - source: \
     destination: c:\services\WcfExampleSvc\
   - source: \Scripts\stopwcfExampleService.ps1
-    destination: c:\temp\services
+    destination: c:\temp
   - source: \Scripts\installwcfExampleService.ps1
-    destination: c:\temp\services
+    destination: c:\temp
 hooks:
   BeforeInstall:
     - location: \Scripts\stopwcfExampleService.bat
