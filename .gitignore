@@ -12,3 +12,6 @@
 *.user
 /Tests/Unit Tests/bin/Release
 /Tests/Unit Tests/obj/Release
+/Tests/UnitTests/bin/Debug
+/Tests/UnitTests
+/Tests/Unit Tests/Unit_Tests.csproj
