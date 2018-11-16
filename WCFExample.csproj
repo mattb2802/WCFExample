@@ -99,6 +99,10 @@
     <None Include="packages\NUnit.3.11.0\build\NUnit.props" />
     <None Include="packages\NUnit.3.11.0\CHANGES.md" />
     <None Include="packages\NUnit.3.11.0\NUnit.3.11.0.nupkg" />
+    <None Include="packages\NUnit3TestAdapter.3.11.0\.signature.p7s" />
+    <None Include="packages\NUnit3TestAdapter.3.11.0\build\net35\NUnit3TestAdapter.props" />
+    <None Include="packages\NUnit3TestAdapter.3.11.0\build\netcoreapp1.0\NUnit3TestAdapter.props" />
+    <None Include="packages\NUnit3TestAdapter.3.11.0\NUnit3TestAdapter.3.11.0.nupkg" />
     <None Include="Scripts\installwcfExampleService.bat" />
     <None Include="Scripts\installwcfExampleService.ps1" />
     <None Include="Scripts\stopwcfExampleService.bat" />
@@ -289,6 +293,14 @@
     <Content Include="packages\NUnit.3.11.0\lib\netstandard2.0\nunit.framework.xml" />
     <Content Include="packages\NUnit.3.11.0\LICENSE.txt" />
     <Content Include="packages\NUnit.3.11.0\NOTICES.txt" />
+    <Content Include="packages\NUnit3TestAdapter.3.11.0\build\net35\nunit.engine.api.dll" />
+    <Content Include="packages\NUnit3TestAdapter.3.11.0\build\net35\nunit.engine.dll" />
+    <Content Include="packages\NUnit3TestAdapter.3.11.0\build\net35\NUnit3.TestAdapter.dll" />
+    <Content Include="packages\NUnit3TestAdapter.3.11.0\build\net35\NUnit3.TestAdapter.pdb" />
+    <Content Include="packages\NUnit3TestAdapter.3.11.0\build\netcoreapp1.0\nunit.engine.netstandard.dll" />
+    <Content Include="packages\NUnit3TestAdapter.3.11.0\build\netcoreapp1.0\NUnit3.TestAdapter.dll" />
+    <Content Include="packages\NUnit3TestAdapter.3.11.0\build\netcoreapp1.0\NUnit3.TestAdapter.pdb" />
+    <Content Include="packages\NUnit3TestAdapter.3.11.0\LICENSE.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
