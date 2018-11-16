@@ -10,3 +10,5 @@
 /bin/Release
 /obj/Release
 *.user
+/Tests/Unit Tests/bin/Release
+/Tests/Unit Tests/obj/Release
