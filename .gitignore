@@ -17,3 +17,5 @@
 /Tests/UnitTests/bin/Release
 /Tests/UnitTests/obj/Release
 /Tests/~UnitTests
+/.vs
+/Tests/UnitTests/obj/Debug
